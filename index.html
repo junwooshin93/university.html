@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Informationen über die Bewerbung an den Universitäten</title>
+    <meta content="utf-8">
+    <style>
+      a:link {
+        color: black;
+        text-decoration: none;
+      }
+      a:visited {
+        color: grey;
+        text-decoration: none;
+      }
+      h1 {
+        font-size: 45px;
+        text-align: center;
+        border-bottom: 3px solid gray;
+        margin: 0px;
+        padding: 20px;
+      }
+      li {
+        list-style-type: none;
+      }
+      ul {
+        margin: 0px;
+        border-bottom: 3px solid gray;
+        padding: 20px;
+      }
+      body {
+        margin: 0px;
+      }
+      .bg-image {
+        width: auto;
+        height: auto;
+        position: relative;
+        z-index: 0;
+      }
+      .bg-image::before {
+        content: "";
+        background: url("san3.jpg");
+        background-size: cover;
+        opacity: 0.2;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: -1;
+      }
+      .unilist {
+        font-size: 20px;
+      }
+      #inhalt {
+        display: block;
+        text-align: center;
+      }
+      .uniwahl {
+        margin: 0px;
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg-image">
+      <div id="inhalt">
+        <h1>Liste der Universitäten</h1>
+        <ul class="unilist">
+          <li><a href="leibniz-universität-hannover.html">Leibniz Universität Hannover (TU Hannover)</a></li>
+          <li><a href="ludwig-maximilian-universität.html">Ludwig Maximilian Universität München</a></li>
+          <li><a href="universität-bonn.html">Rheinische Friedrich-Wilhelms-Universität Bonn</a></li>
+          <li><a href="technische-universität-berlin.html">Technische Universität Berlin</a></li>
+          <li><a href="technische-universität-darmstadt.html">Technische Universität Darmstadt</a></li>
+          <li><a href="technische-universität-münchen.html">Technische Universität München</a></li>
+        </ul>
+
+        <p class="uniwahl"><b>Wählen Sie eine Universität, an der Sie sich bewerben möchten.<b></p><br>
+        <!--<img src="san1.jpg" width="30%">-->
+        <!--<img src="san1.jpg" width="30%">-->
+      </div>
+    </div>
+  </body>
+</html>

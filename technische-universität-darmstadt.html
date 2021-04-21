@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Technische Universität Darmstadt</title>
+    <meta charset="utf-8">
+    <style>
+      a {
+        color: red;
+        text-decoration: none;
+      }
+      #titles {
+        color: black;
+      }
+      h1 {
+        text-align: center;
+        font-size: 45px;
+        border-bottom: 3px solid gray;
+        margin: 0px;
+        padding: 20px;
+      }
+      .bg-image {
+        width: auto;
+        height: auto;
+        position: relative;
+        z-index: 0;
+      }
+      .bg-image::before {
+        content: "";
+        background: url("darmstadtbackground.jpeg");
+        background-size: cover;
+        z-index: -1;
+        opacity: 0.2;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+      }
+      h2 {
+        padding-left: 100px;
+      }
+      #unterlagen {
+        padding-left: 200px;
+      }
+      .padding1 {
+        padding-left: 150px;
+      }
+      #startseite {
+        font-size: 25px;
+        color: blue;
+        font-weight: bold;
+      }
+      body {
+        margin: 0px;
+      }
+      #logo {
+        width: 300px;
+        display: inline;
+        padding: 20px;
+      }
+      #grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      #article {
+        padding-top: 30px;
+      }
+      #article2 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg-image">
+      <h1><a href="https://www.tu-darmstadt.de/index.de.jsp" target="_blank" title="Link to TU Darmstadt" id="titles">Technische Universität Darmstadt</a></h1>
+      <div id="grid">
+        <div id="article">
+          <h2>1. Bewerbungsfristen für WiSe 2021/2022</h2>
+          <p class="padding1">von <b>1. Juni 2021</b> bis <b>?</b></p>
+        </div>
+        <div id=article2>
+          <img src="tudlogo.JPG" id="logo">
+        </div>
+      </div>
+      <h2>2. Unterlagen</h2>
+      <img src="tudunterlagen.JPG" width="45%" class="padding1">
+      <p class="padding1">Laut der <a href="https://www.tu-darmstadt.de/studieren/studieninteressierte/internationale_studieninteressierte/bewerbung_und_zulassung_international/index.de.jsp" target="_blank" title="Link to TUD Bewerbung für Internationale Interessierte">TU Darmstadt</a> braucht man die folgenden Unterlagen:</p>
+      <p id="unterlagen">1.Hochschulzugangberechtigung: Schulabschluss mit Fächer- und Notenübersicht <b>im Original</b><br>
+        2.die Hochschul-Aufnahmeprüfung(수능)<br>
+        3.Hochschulabschluss mit Notenübersicht, wenn vorhanden<br>
+        4.Das Mindest-GPA, das für einen Bachelor-Abschluss erforderlich ist<br>
+        5.Deutschkenntnisse: TestDaF 4xTDN4 / Telc C1 Hochschule oder Goethe C2 / C1 durch DSH2<br>
+        6.Pass<br>
+        7.Zulassungsantrag</p>
+      <p class="padding1">Die Beglaubigung ist für 1, 2, 3 erfordelich.</p>
+      <h2>3. Wichtige Hinweise</h2>
+      <p class="padding1">
+        TU Darmstadt fordert momentan keine Beglaubigung. In diesem Fall sollte man nur einfache Kopien an <b>Referat Zulassung International</b> abschicken.
+        (TU Darmstadt, Referat Zulassung International, Karolinenplatz 5, 64289 Darmstadt). Aber Man könnte später die beglaubigten Unterlagen abgeben.
+      </p>
+
+      <p style="margin-top:20px; margin-bottom:0px; padding-top:20px; padding-bottom:20px; text-align:center; border-top:3px solid gray;"><a href="index.html" id="startseite">Zurück zur Startseite</a></p>
+    </div>
+  </body>
+</html>

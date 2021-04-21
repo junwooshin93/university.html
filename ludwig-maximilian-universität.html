@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ludwig Maximilian Universität München</title>
+    <meta charset="utf-8">
+    <style>
+      body {
+        margin: 0px;
+      }
+      h1 {
+        font-size: 45px;
+        text-align: center;
+        border-bottom: 3px solid gray;
+        margin: 0px;
+        padding: 20px;
+      }
+      #titles {
+        color: black;
+      }
+      a {
+        color:red;
+        text-decoration: none;
+      }
+      #logo {
+        display: inline;
+        margin: 0px;
+        width: 300px;
+        padding: 20px;
+      }
+      #article2 {
+        text-align: center;
+      }
+      #article {
+        padding-top: 30px;
+      }
+      h2 {
+        margin-left: 100px;
+      }
+      .tabs1 {
+        margin-left: 150px;
+      }
+      #unterlagen {
+        margin-left: 200px;
+      }
+      #startseite {
+        color: blue;
+        font-size: 25px;
+      }
+      .bg-image {
+        width: auto;
+        height: auto;
+        position: relative;
+        z-index: 0;
+      }
+      .bg-image::before {
+        content: "";
+        background: url("lmubackground.jfif");
+        background-size: cover;
+        opacity: 0.2;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: -1;
+      }
+      #grid {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="bg-image">
+      <h1><a href="https://www.lmu.de/de/index.html" target="_blank" title="Link to LMU Webseite" id="titles">Ludwig Maximilian Universität München</a></h1>
+      <div id="grid">
+        <div id="article">
+          <h2>1. Bewerbungsfristen für WiSe 2021/2022</h2>
+          <p class="tabs1">von <b>1. Mai 2021</b> bis <b>15. Juli 2021</b></p>
+        </div>
+        <div id="article2">
+          <img src="lmulogo.jpg" id="logo">
+        </div>
+      </div>
+      <h2>2. Unterlagen</h2>
+      <img src="lmuunterlagen.JPG" width="45%" class="tabs1">
+      <p class="tabs1">Laut der <a href="https://www.lmu.de/de/studium/internationale-vollzeit-studierende/studienbewerbung/index.html" target="_blank" title="Link to LMU Bewerbung für Internationale Interessierte">LMU</a> braucht man die folgenden Unterlagen:</p>
+      <p id="unterlagen">1.Hochschulzugangberechtigung: Schulabschluss mit Fächer- und Notenübersicht <b>im Original</b><br>
+        2.die Hochschul-Aufnahmeprüfung(수능)<br>
+        3.Hochschulabschluss mit Notenübersicht, wenn vorhanden<br>
+        4.Das Mindest-GPA, das für einen Bachelor-Abschluss erforderlich ist<br>
+        5.Deutschkenntnisse: TestDaF 4xTDN4 / Telc C1 Hochschule oder Goethe C2 / C1 durch DSH2<br>
+        6.Pass<br>
+        7.<a href="lmulebenslaufmuster.pdf" target="_blank">Lebenslauf</a><br>
+        8.<a href="lmuantrag.pdf" target="_blank">Zulassungsantrag</a></p>
+      <p class="tabs1">Die Beglaubigung ist für 1, 2, 3 erfordelich. Zusätzlich gibt es eine <a href="lmucheckliste.pdf" target="_blank">Checkliste</a> zu den Unterlagen.
+      </p>
+      <h2>3. Wichtige Hinweise</h2>
+      <p class="tabs1">
+        Die Bewerbung für einen Wohnplatz in dem Studentenwohnheim im WiSe 2021/2022 ist <b>ab 15. Mai 2021</b> möglich.
+      </p>
+
+      <p style="margin-top:20px; margin-bottom:0px; padding:20px; text-align: center; border-top: 3px solid gray;"><a href=index.html id="startseite"><b>Zurück zur Startseite</b></a></p>
+    </div>
+  </body>
+</html>
